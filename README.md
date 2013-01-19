@@ -1,4 +1,4 @@
 CustomViewer
 ============
 
-Atomic model viewer with very yaml input and customizable shaders
+Atomic model viewer with easy yaml input and customizable shaders
