@@ -256,7 +256,7 @@ bool initGL()
     // Open a window and create its OpenGL context
     if( !glfwOpenWindow( 1024, 768, 0,0,0,0, 32,0, GLFW_WINDOW ) )
     {
-        std::cerr << "Failed to open GLFW window. If you have an Intel GPU, they are not 3.3 compatible. Try the 2.1 version of the tutorials." << std::endl;
+        std::cerr << "Failed to open GLFW window. If you have an Intel GPU, they are not 3.3 compatible." << std::endl;
         glfwTerminate();
         return false;
     }
