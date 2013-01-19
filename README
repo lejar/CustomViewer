@@ -1,0 +1,13 @@
+This is a project that I started because I needed some nice pictures for a research report. I couldn't find any lattice viewers with simple input and customizable shaders, so I made my own.
+
+Building this project:
+
+  mkdir build
+  cd build/
+  cmake ..
+  make
+  
+Executing the binary:
+  It is important to remember to have the shader files in the same directory as the program.
+  ./CustomViewer path/to/input/file.yaml
+  
